@@ -92,10 +92,10 @@ public class MediaLP1 {
         double sub = scanner.nextDouble();
 
         // Cálculo da média
-        double media = ((p1 * 0.6 + ((e1 + e2) / 2) * 0.4) * 0.5 +
-        Math.max(((p1 * 0.6 + ((e1 + e2) / 2) * 0.4) - 5.9), 0) /((p1 * 0.6 + ((e1 + e2) / 2) * 0.4) - 5.9)) * api * 0.5 +x + (sub * 0.2);
+         double mediaFinal = (prova1*0.6+((ex1+ex2)/2)*0.4)*0.5+(Math.max(((prova1*0.6+((ex1+ex2)/2)*0.4)-5.9),0)/((prova1*0.6+((ex1+ex2)/2)*0.4)-5.9))*(notaApi*0.5)+exExtra+(provaSub*0.2);
 
         // Exibição da média
-        System.out.printf("A média do aluno em LP1 é: %.2f\n", media);
+       System.out.printf("A média final do aluno é: %.2f\n", mediaFinal);
+       scanner.close();
     }
 }
