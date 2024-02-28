@@ -97,5 +97,5 @@ public class MediaLP1 {
         // Exibição da média
        System.out.printf("A média final do aluno é: %.2f\n", mediaFinal);
        scanner.close();
+       }
     }
-}
