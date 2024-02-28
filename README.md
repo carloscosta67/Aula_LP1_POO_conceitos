@@ -69,6 +69,7 @@ public class DespesaTrimestral {
 2. Programa que leia as notas e calcule a média de LP1 deste 
 semestre, referente a um determinado aluno
 (P1*0.6+((E1+E2)/2)*0.4)*0.5+(max(((P1*0.6+((E1+E2)/2)*0.4)-5.9),0)/((P1*0.6+((E1+E2)/2)*0.4)-5.9))*(API*0.5)+X+(SUB*0.2)
+
 import java.util.Scanner;
 
 public class MediaLP1 {
@@ -92,7 +93,7 @@ public class MediaLP1 {
 
         // Cálculo da média
         double media = ((p1 * 0.6 + ((e1 + e2) / 2) * 0.4) * 0.5 +
-        Math.max(((p1 * 0.6 + ((e1 + e2) / 2) * 0.4) - 5.9), 0) /((p1 * 0.6 + ((e1 + e2) / 2) * 0.4) - 5.9)) * api * 0.5 +x + sub * 0.2);
+        Math.max(((p1 * 0.6 + ((e1 + e2) / 2) * 0.4) - 5.9), 0) /((p1 * 0.6 + ((e1 + e2) / 2) * 0.4) - 5.9)) * api * 0.5 +x + (sub * 0.2);
 
         // Exibição da média
         System.out.printf("A média do aluno em LP1 é: %.2f\n", media);
