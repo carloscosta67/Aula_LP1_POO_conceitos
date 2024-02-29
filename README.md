@@ -1,4 +1,4 @@
-"#Estudos-casa"  
+"#Exercicios / Estudos-casa"  
 1. Altere seu programa para imprimir uma mensagem diferente.
 
 2. public class MyFirstJavaProgram {
@@ -39,6 +39,7 @@ public class MyFirstJavaProgram {
    }
 }
 
+Exercicio  2
 1. Na empresa em que trabalhamos, há tabelas com o gasto de cada 
 mês. Para fechar o balanço do primeiro trimestre, precisamos 
 somar o gasto total. Sabendo que, em janeiro, foram gastos 15 mil 
